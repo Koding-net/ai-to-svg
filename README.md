@@ -131,6 +131,6 @@ Modern `.ai` files are PDF-compatible. The Python script opens each file with Mu
 
 ## License
 
-MIT © [KodeKing](https://github.com/kodeking)
+MIT © [KodeKing](https://github.com/Koding-net)
 
-See all tools at [github.com/kodeking/lottie-tools](https://github.com/kodeking/lottie-tools).
+See all tools at [github.com/Koding-net/lottie-tools](https://github.com/Koding-net/lottie-tools).

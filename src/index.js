@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /**
- * @kodeking/ai-to-svg
+ * @koding-net/ai-to-svg
  *
  * Convert Adobe Illustrator (.ai) files to clean SVG.
  * Uses MuPDF (via PyMuPDF) to extract vector artwork from .ai files.
  *
  * CLI:  npx ai-to-svg input.ai output.svg
- * API:  const { convertAiToSvg } = require('@kodeking/ai-to-svg')
+ * API:  const { convertAiToSvg } = require('@koding-net/ai-to-svg')
  */
 
 'use strict';

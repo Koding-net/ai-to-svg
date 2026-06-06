@@ -1,9 +1,9 @@
-# @kodeking/ai-to-svg
+# @koding-net/ai-to-svg
 
 > Convert Adobe Illustrator (.ai) files to clean SVG — **Node.js CLI + programmatic API**
 
-[![npm](https://img.shields.io/npm/v/@kodeking/ai-to-svg)](https://www.npmjs.com/package/@kodeking/ai-to-svg)
-[![license](https://img.shields.io/npm/l/@kodeking/ai-to-svg)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@koding-net/ai-to-svg)](https://www.npmjs.com/package/@koding-net/ai-to-svg)
+[![license](https://img.shields.io/npm/l/@koding-net/ai-to-svg)](LICENSE)
 
 No Illustrator required. Uses **MuPDF** (via [PyMuPDF](https://pymupdf.readthedocs.io)) to extract vector paths and shapes from `.ai` files as clean, web-ready SVG. Handles single files and batch conversion. Try it live at [iconking.net/tools/ai-to-svg](https://iconking.net/tools/ai-to-svg).
 
@@ -21,14 +21,14 @@ No Illustrator required. Uses **MuPDF** (via [PyMuPDF](https://pymupdf.readthedo
 
 ```bash
 pip3 install pymupdf
-npm install -g @kodeking/ai-to-svg
+npm install -g @koding-net/ai-to-svg
 ```
 
 Or let npm handle the Python dependency:
 
 ```bash
-npm install -g @kodeking/ai-to-svg
-npm run setup --prefix $(npm root -g)/@kodeking/ai-to-svg
+npm install -g @koding-net/ai-to-svg
+npm run setup --prefix $(npm root -g)/@koding-net/ai-to-svg
 ```
 
 ---
@@ -57,7 +57,7 @@ ai-to-svg --batch ./ai-files/ ./svg-output/
 ### Single file
 
 ```js
-const { convertAiToSvg } = require('@kodeking/ai-to-svg');
+const { convertAiToSvg } = require('@koding-net/ai-to-svg');
 
 const result = await convertAiToSvg({
   input:  'logo.ai',
@@ -71,7 +71,7 @@ console.log(result.output); // 'logo.svg'
 ### Batch conversion
 
 ```js
-const { convertBatch } = require('@kodeking/ai-to-svg');
+const { convertBatch } = require('@koding-net/ai-to-svg');
 
 const report = await convertBatch({
   inputDir:  './ai-files',

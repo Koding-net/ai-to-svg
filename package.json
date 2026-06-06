@@ -1,5 +1,5 @@
 {
-  "name": "@kodeking/ai-to-svg",
+  "name": "@koding-net/ai-to-svg",
   "version": "1.0.0",
   "description": "Convert Adobe Illustrator (.ai) files to clean SVG — Node.js CLI and programmatic API",
   "main": "src/index.js",
@@ -19,7 +19,7 @@
     "pymupdf",
     "vector",
     "cli",
-    "kodeking"
+    "koding-net"
   ],
   "author": "KodeKing <hello@kodeking.dev>",
   "license": "MIT",

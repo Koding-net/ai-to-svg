@@ -1,0 +1,33 @@
+{
+  "name": "@kodeking/ai-to-svg",
+  "version": "1.0.0",
+  "description": "Convert Adobe Illustrator (.ai) files to clean SVG — Node.js CLI and programmatic API",
+  "main": "src/index.js",
+  "bin": { "ai-to-svg": "src/index.js" },
+  "files": ["src", "python"],
+  "scripts": {
+    "setup": "pip3 install pymupdf --break-system-packages || pip install pymupdf",
+    "test": "python3 python/ai_to_svg.py --help || true"
+  },
+  "keywords": [
+    "ai-to-svg",
+    "illustrator",
+    "adobe-illustrator",
+    "svg",
+    "converter",
+    "mupdf",
+    "pymupdf",
+    "vector",
+    "cli",
+    "kodeking"
+  ],
+  "author": "KodeKing <hello@kodeking.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kodeking/ai-to-svg.git"
+  },
+  "homepage": "https://github.com/kodeking/ai-to-svg#readme",
+  "bugs": { "url": "https://github.com/kodeking/ai-to-svg/issues" },
+  "engines": { "node": ">=18.0.0" }
+}
